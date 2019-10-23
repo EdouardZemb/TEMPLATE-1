@@ -1,0 +1,186 @@
+* {
+    margin: 0%;
+}
+
+.layer{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-image: url(../img/conifer-dawn-daylight-167698.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.top {
+    padding: 20px;
+}
+.top h1 {
+    font-weight: 700;
+}
+.top h3 {
+    font-weight: 400;
+    font-size: 60%;
+    padding-top: 0%;
+}
+.top h1,h3 {
+    color: white;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+    margin: 0px;
+    box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.5);
+}
+
+.bannière {
+    width: 100%;  
+}
+
+.intro hr{
+    padding: auto;
+    width: 16%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: none;
+    position: relative;
+    left: 42%;
+}
+
+.intro {
+    text-align: center;
+    margin: 0px;
+}
+
+p{
+    font-weight: 300;
+    font-size: 80%;
+    color: grey;
+}
+
+.intro header {
+    background-color: white;
+    padding: 50px;
+}
+
+.intro h2 {
+    color: grey;
+    font-variant-caps: all-petite-caps;
+    font-weight: 300;
+    font-size: 110%;
+    font-stretch: extra-expanded;
+}
+
+.intro p {
+    background-color: lightgray;
+    padding: 50px;
+}
+
+.article figure {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.article img {
+    width: 50%;
+}
+
+.article {
+    background-color: rgb(49, 49, 49);
+    padding: 7%;
+}
+
+.article header {
+    background-color: black;
+    text-align: center;
+    padding: 50px;
+}
+.article h1 {
+    color: white;
+}
+.article hr{
+    padding: auto;
+    width: 16%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    position: relative;
+    left: 42%;
+}
+
+
+.article h2 {
+    color: grey;
+    font-variant-caps: all-petite-caps;
+    font-weight: 300;
+    font-size: 110%;
+    font-stretch: extra-expanded;
+}
+
+.mosaic {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.mosaic img, article{
+    width: 50%;
+}
+
+
+.mosaic article {
+    font-size: 70%;
+    box-sizing: border-box;
+    padding: 5%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+.mosaic p {
+    font-weight: 300;
+    font-size: 100%;
+}
+
+.mosaic > .child:nth-child(1) {
+    order: 1;
+}
+.mosaic > .child:nth-child(2) {
+    order: 2;
+    background-color: white;
+}
+.mosaic > .child:nth-child(3) {
+    order: 4;
+}
+.mosaic > .child:nth-child(4) {
+    order: 3;
+    background-color: rgb(49, 49, 49);
+    color: white;
+    text-align: right;
+}
+.mosaic > .child:nth-child(5) {
+    order: 5;
+}
+.mosaic > .child:nth-child(6) {
+    order: 6;
+    background-color: white;
+}
+
+footer {
+    padding: 5%;
+    text-align: center;
+    color: white;
+}
+
+footer h5 {
+    font-weight: 300;
+    font-size: 70%;
+}
+
